@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %} Data {% endblock title %}
+
+{% block content  %}
+<div class="">
+    {% block page_title %}Data Loaded Using Pandas{% endblock page_title %}
+    <hr><br>
+    <div class="">
+        <center><img class="img-fluid" src="{% static 'assets/img/dataframe_data.png' %}" alt=""></center>
+    </div>
+</div>
+{% endblock content %}
